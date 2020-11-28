@@ -125,7 +125,7 @@ namespace Лабораторная_2
         {
             imageBox2.Image = func.HSV(trackBar4.Value);
         }
-
+    
         private void button15_Click(object sender, EventArgs e)
         {
             imageBox2.Image = func.Blur();

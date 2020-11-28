@@ -255,7 +255,7 @@ namespace Лабораторная_2
         {
             Image<Bgr, byte> result = sourceImage.Convert<Bgr, byte>();
             Image<Bgr, byte> result2 = result.CopyBlank();
-
+        
             for (int chanel = 0; chanel < 3; chanel++)
             {
                 for (int y = 1; y < result.Height - 1; y++)
